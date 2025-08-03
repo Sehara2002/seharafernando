@@ -58,7 +58,7 @@ const HomePage = () => {
     { number: "15+", label: "Technologies Mastered", icon: <Settings className='m-auto h-10 w-10'/> }
   ];
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId:string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
