@@ -94,7 +94,7 @@ const HomePage = () => {
             <div className={`hero__text ${isVisible ? 'hero__text--visible' : ''}`}>
               <div className="hero__greeting">
                 <span className="hero__greeting-emoji"></span>
-                <span>Hello, I'm</span>
+                <span>{"Hello, I'm"}</span>
               </div>
               
               <h1 className="hero__name">
@@ -103,7 +103,7 @@ const HomePage = () => {
               </h1>
               
               <div className="hero__titles">
-                <span className="hero__title-static">I'm a passionate</span>
+                <span className="hero__title-static">{"I'm a passionate"}</span>
                 <div className="hero__title-rotating">
                   <span className={`hero__title-item ${currentServiceIndex === 0 ? 'active' : ''}`}>
                     AI Developer
@@ -235,7 +235,7 @@ const HomePage = () => {
           <div className="cta__content">
             <h2 className="cta__title">Ready to Start Your Next Project?</h2>
             <p className="cta__description">
-              Let's collaborate and bring your ideas to life with cutting-edge technology and innovative solutions.
+             {" Let's "}collaborate and bring your ideas to life with cutting-edge technology and innovative solutions.
             </p>
             <div className="cta__actions">
               <Link href="/Pages/Projects" className="cta__btn cta__btn--primary">
@@ -249,7 +249,7 @@ const HomePage = () => {
           <div className="cta__visual">
             <div className="cta__code">
               <div className="cta__code-line">
-                <span className="cta__code-comment">// Let's build something amazing</span>
+                <span className="cta__code-comment">{"// Let's build something amazing"}</span>
               </div>
               <div className="cta__code-line">
                 <span className="cta__code-keyword">const</span>
